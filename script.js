@@ -26,11 +26,11 @@ getArrayOfNumbers(arr)
 		return filterOutOddNumbers(arr1)
 	})
 	.then((filteredArr)=> {
-		outputDiv.textContent=filteredArr.join(', ')
+		outputDiv.textContent=filteredArr.join(',')
 		return multiplyNumbersBy2(filteredArr)
 	})
 	.then((multipliedArr)=> {
-		outputDiv.textContent=multipliedArr.join(', ')
+		outputDiv.textContent=multipliedArr.join(',')
 	})
 	.catch((error)=>{
 		console.log(error)
